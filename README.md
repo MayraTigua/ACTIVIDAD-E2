@@ -24,25 +24,25 @@ TiguaMayra-SumaVNum.cpp
 
 # Descripcion de cada Programas
 
->>>> TiguaMayra-Compara.cpp : 
+> TiguaMayra-Compara.cpp : 
 
-Es un programa que nos permite comparar dos números y verificar cual de estos es el mayor o menor.
+	Es un programa que nos permite comparar dos números y verificar cual de estos es el mayor o menor.
 
->>>> TiguaMayra-CuentaMoneda.cpp : 
+> TiguaMayra-CuentaMoneda.cpp : 
 
-Es un programa que permite al usuario contar monedas de tres denominaciones, saber cuanto es la cantidad de dinero que tiene y cuantas monedas tiene de cada denominación.
+	Es un programa que permite al usuario contar monedas de tres denominaciones, saber cuanto es la cantidad de dinero que tiene y cuantas monedas tiene de cada denominación.
 
->>>> TiguaMayra-Edad.cpp : 
+> TiguaMayra-Edad.cpp : 
 
-Es un programa que permite al usuario calcular su edad en Años Meses y Dias.
+	Es un programa que permite al usuario calcular su edad en Años Meses y Dias.
 
->>>> TiguaMayra-PuntoVenta.cpp :  
+> TiguaMayra-PuntoVenta.cpp :  
 
-Es un programa que se encargara de calcular la compra de varios productos, calculando su valor bruto, sumandole el Iva a la compra y realizando un descuento adicional a la compra del usuario.
+	Es un programa que se encargara de calcular la compra de varios productos, calculando su valor bruto, sumandole el Iva a la compra y realizando un descuento adicional a la compra del usuario.
 
->>>> TiguaMayra-SumaVNum.cpp : 
+> TiguaMayra-SumaVNum.cpp : 
 
-Es un programa encargado para que cualquier usuario en general pueda calcular los valores de varios números.
+	Es un programa encargado para que cualquier usuario en general pueda calcular los valores de varios números.
 
 # Funcionalidad
 
@@ -66,11 +66,11 @@ Es un programa encargado para que cualquier usuario en general pueda calcular lo
         
 >>>> TiguaMayra-Edad.cpp : 
     
-    int MR_dd,MR_mm,MR_yy,MR_dd1,MR_mm1,MR_yy1,MR_da,MR_ma,MR_ya;
-		cout<<"Ingresa la Fecha Actual: Dia Mes y Año "<<endl;
-	  cin>>MR_dd>>MR_mm>>MR_yy;
-	  cout<<"Ingresa la Fecha de Nacimiento: Dia Mes y Año "<<endl;
-	  cin>>MR_dd1>>MR_mm1>>MR_yy1;    
+    	int MR_dd,MR_mm,MR_yy,MR_dd1,MR_mm1,MR_yy1,MR_da,MR_ma,MR_ya;
+	cout<<"Ingresa la Fecha Actual: Dia Mes y Año "<<endl;
+	cin>>MR_dd>>MR_mm>>MR_yy;
+	cout<<"Ingresa la Fecha de Nacimiento: Dia Mes y Año "<<endl;
+	cin>>MR_dd1>>MR_mm1>>MR_yy1;    
    
 >>>> TiguaMayra-PuntoVenta.cpp : 
      
@@ -84,7 +84,7 @@ Es un programa encargado para que cualquier usuario en general pueda calcular lo
    
 >>>> TiguaMayra-SumaVNum.cpp : 
     
-    int MR_a=0,MR_m;
+    	int MR_a=0,MR_m;
 	  float MR_t=0,MR_r;
 	  cout<<"Ingresar la cantidad de numeros a sumar: ";
 	  cin>>MR_m;
@@ -102,35 +102,35 @@ Es un programa encargado para que cualquier usuario en general pueda calcular lo
   
 >>>> TiguaMayra-CuentaMoneda.cpp : 
 
-  cout<<"El resultado fue:"<<endl;
+  	cout<<"El resultado fue:"<<endl;
   
-  cout<<"Cantidad de monedas ingresadas : "<<MR_c<<endl;
+  	cout<<"Cantidad de monedas ingresadas : "<<MR_c<<endl;
   
-  cout<<"Cantidad total en dinero contado : "<<MR_a<<endl;
+  	cout<<"Cantidad total en dinero contado : "<<MR_a<<endl;
   
-  cout<<"Cantidad de monedas de 0.10c ingresadas : "<<MR_c1<<endl;
+ 	cout<<"Cantidad de monedas de 0.10c ingresadas : "<<MR_c1<<endl;
   
-  cout<<"Cantidad total en dinero de monedas de 0.10cc : "<<MR_a1<<endl;
+  	cout<<"Cantidad total en dinero de monedas de 0.10cc : "<<MR_a1<<endl;
  
-  cout<<"Cantidad de monedas de 0.25cc ingresadas : "<<MR_c2<<endl;
+ 	cout<<"Cantidad de monedas de 0.25cc ingresadas : "<<MR_c2<<endl;
  
-  cout<<"Cantidad total en dinero de monedas de 0.25cc : "<<MR_a2<<endl;
+  	cout<<"Cantidad total en dinero de monedas de 0.25cc : "<<MR_a2<<endl;
 
 >>>> TiguaMayra-Edad.cpp : 
 
-  cout<<"Ustd Tiene "<<MR_ya<<" años "<<MR_ma<<" meses "<<" y "<<MR_da<<" dias "<<endl;
+  	cout<<"Ustd Tiene "<<MR_ya<<" años "<<MR_ma<<" meses "<<" y "<<MR_da<<" dias "<<endl;
 
 >>>> TiguaMayra-PuntoVenta.cpp : 
 
-  cout<<"El valor del iva de su compra es: $ " <<MR_tiva<<endl;
+  	cout<<"El valor del iva de su compra es: $ " <<MR_tiva<<endl;
 
-  cout<<"Su compra obtiene descuento de: "<<MR_vt<<endl;
+ 	cout<<"Su compra obtiene descuento de: "<<MR_vt<<endl;
   
-  cout<<"El valor total a pagar de su compra es: $ "<<MR_pt<<endl;
+  	cout<<"El valor total a pagar de su compra es: $ "<<MR_pt<<endl;
 
 >>>> TiguaMayra-SumaVNum.cpp : 
 
-  cout<<"La suma total es: "<<MR_t<<endl;
+  	cout<<"La suma total es: "<<MR_t<<endl;
 
    # Instalacion 
    
